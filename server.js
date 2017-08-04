@@ -10,18 +10,18 @@ app.get('/', function (req, res) {
   res.sendF
 });
 
-app.get('/article-one',function(req,res)){
+app.get('/article-one',function(req,res){
     res.send('article one is requested and being srved');
-}};
+});
 
-app.get('/article-one',function(req,res)){
-    res.send('article one is requested and being srved');
+app.get('/article-two',function(req,res){
+    res.send('article two is requested and being srved');
     
-}};
+});
 
-app.get('/article-one',function(req,res)){
-    res.send('article one is requested and being srved');
-}};
+app.get('/article-three',function(req,res){
+    res.send('article three is requested and being srved');
+});
     app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
