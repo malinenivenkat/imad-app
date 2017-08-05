@@ -3,7 +3,7 @@ console.log('Loaded!');
 var element=document.getElementById('main.text');
 elment.innerHTML='college management system-CSTAFF';
 // move the image
-var img=document.getElemeentById('modi');
+var img=document.getElemeentById('madi');
 var marginleft=0;
 function moveRight(){
     marginleft=marginleft+10;
